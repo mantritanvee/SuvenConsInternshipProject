@@ -1,0 +1,77 @@
+
+.header { background-color: lightgreen;
+          color:white;
+          text-align:center;
+          padding:5px;
+        }
+.coll {
+    text-align:center;
+    border-radius: 25px;
+    line-height:30px;
+    background-color:lightgrey;
+    height:400px;
+    width:160px;
+    float:left;
+    padding:10px;	      
+     }
+	 
+.colr {
+    
+    border-radius: 25px;
+    line-height:30px;
+    background-color:lightgrey;
+    height:400px;
+    width:200px;
+    float:right;
+    padding:10px;	      
+     }
+	 
+a{text-decoration : none; font-family:arial;}
+	  
+ul { float:left; list-style-type: none;}   
+	   
+ul li a{float:left;
+        text-align:center;
+        background-color:;
+	    color :black;
+	    padding:10px 10px;
+		margin:0px;
+	    border-radius:0px 10px 0px 10px;
+	   }  
+	   
+	   ul#horz li{display:inline;}
+	   
+	 ul#horz li a{background-color:lightblue;
+	           color :white;
+			   padding:10px 20px;
+			   border-radius:4px 4px 4px 4px;}  
+	  
+	ul#horz li a:link {background-color:lightblue;}
+    ul#horz li a:hover {background-color:orange;}
+    ul#horz li a:active {background-color:red;}
+	ul#horz li a:visited {background-color:purple;}
+	  
+ul li a:link {background-color:;}
+ul li a:hover {background-color:orange;}
+ul li a:active {background-color:red;}
+ul li a:visited {background-color:purple;}
+
+.main { border-radius: 25px;
+        width:800px;
+		height:200px;
+		position:relative;
+        float:left;
+		background-color:lightblue;
+        padding:10px;
+        margin-right: 150px;
+    margin-left: 200px;
+	text-align:center;
+      }
+		 
+.footer { border-radius: 25px;
+          background-color:black;
+          color:white;
+          clear:both;
+          text-align:center;
+          padding:5px;	 	 
+        }
